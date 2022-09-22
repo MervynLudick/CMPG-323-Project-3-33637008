@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace DeviceManagement_WebApp.Data
+namespace DeviceManagement_DataAccess
 {
     public class ApplicationDbContext : IdentityDbContext
     {
