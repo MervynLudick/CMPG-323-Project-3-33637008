@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DeviceManagement_DataAccess;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using DeviceManagement_WebApp.Data;
 using DeviceManagement_WebApp.Models;
 
 namespace DeviceManagement_WebApp.Controllers

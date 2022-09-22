@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManagement_WebApp", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManagement_DataAccess", "DeviceManagement_DataAccess\DeviceManagement_DataAccess.csproj", "{6102137A-28F9-4908-ACC2-A8270BB7D41D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManagement_Core", "DeviceManagement_Core\DeviceManagement_Core.csproj", "{88AAEC40-925B-4A66-B23D-DD9CB3C3E918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6102137A-28F9-4908-ACC2-A8270BB7D41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6102137A-28F9-4908-ACC2-A8270BB7D41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6102137A-28F9-4908-ACC2-A8270BB7D41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88AAEC40-925B-4A66-B23D-DD9CB3C3E918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88AAEC40-925B-4A66-B23D-DD9CB3C3E918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88AAEC40-925B-4A66-B23D-DD9CB3C3E918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88AAEC40-925B-4A66-B23D-DD9CB3C3E918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

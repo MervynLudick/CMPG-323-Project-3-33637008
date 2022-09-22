@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Migrations" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DeviceManagement_DataAccess\DeviceManagement_DataAccess.csproj" />
   </ItemGroup>
 
