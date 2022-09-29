@@ -10,3 +10,5 @@ Finally we have the Web app, this is the front facing website that the users wil
 
 ## Using The app
 The app can be accessed from https://connecteddevice-33637008.azurewebsites.net to test it. An account can be created, after which you will be allowed to log in and create Zones, Categories and devices.
+
+[33637008_Project3_References.docx](https://github.com/MervynLudick/CMPG-323-Project-3-33637008/files/9675474/33637008_Project3_References.docx)
