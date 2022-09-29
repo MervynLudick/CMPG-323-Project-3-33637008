@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DeviceManagement_Core\DeviceManagement_Core.csproj" />
     <ProjectReference Include="..\DeviceManagement_DataAccess\DeviceManagement_DataAccess.csproj" />
   </ItemGroup>
 

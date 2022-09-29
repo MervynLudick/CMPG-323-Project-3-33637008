@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using Core.Interfaces;
 
 namespace DeviceManagement_DataAccess.Repositories
 {
@@ -29,7 +30,7 @@ namespace DeviceManagement_DataAccess.Repositories
         {
             return _context.Set<T>().ToList();
         }
-        public T GetById(int id)
+        public T GetById(Guid? id)
         {
             return _context.Set<T>().Find(id);
         }
@@ -40,6 +41,26 @@ namespace DeviceManagement_DataAccess.Repositories
         public void RemoveRange(IEnumerable<T> entities)
         {
             _context.Set<T>().RemoveRange(entities);
+        }
+
+        public int SaveAll()
+        {
+            return _context.SaveChanges();
+        }
+
+        public void Update(T entity)
+        {
+            _context.Set<T>().Update(entity);
+        }
+
+        /// <summary>
+        /// Checks if an entity exists in the datastore with a given Id
+        /// </summary>
+        /// <param name="id">The Id of the entity</param>
+        /// <returns></returns>
+        public bool DoesExist(Guid? id)
+        {
+            return GetById(id) != null;
         }
     }
 }

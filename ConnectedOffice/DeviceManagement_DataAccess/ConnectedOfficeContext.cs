@@ -1,7 +1,9 @@
 ﻿using System;
+using Core;
+using DeviceManagement_WebApp.Models;
 using Microsoft.EntityFrameworkCore;
 
-// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
+// Code scaffolded by EF DeviceManagement_Core assumes nullable reference types (NRTs) are not used or disabled.
 // If you have enabled NRTs for your project, then un-comment the following line:
 // #nullable disable
 
